@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Treasure Hunt</title>
+  <link rel="icon" href="https://freesvg.org/img/Gold-coin-2017072636.png">
+  <link rel="stylesheet" href="treasurehunt.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+    <h1 id = "#Top">Treasure Hunt</h1>
+    <img src="https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG78.png" alt="Treasure Chest Pic" height="200px">
+    <h4>How to Play</h4>
+    <ul>
+      <li>Click on the random squares and look for the rainbow treasure!</li>
+      <li>Try to avoid the bomb.</li>
+      <li>If you find nothing, a tree will appear.</li>
+      <li>Try to win within 6 turns! Good luck and have fun!</li>
+    </ul>
+
+    <h5 id= "counter"># of clicks: 0</h5>
+
+    <table id= "gameBoard">
+      <tr>
+        <td id="0" onclick="treasure(0)";>?</td>
+        <td id="1" onclick="treasure(1)";>?</td>
+        <td id="2" onclick="treasure(2)";>?</td>
+      </tr>
+      <tr>
+        <td id="3" onclick="treasure(3)";>?</td>
+        <td id="4" onclick="treasure(4)";>?</td>
+        <td id="5" onclick="treasure(5)";>?</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="treasure(6)";>?</td>
+        <td id="7" onclick="treasure(7)";>?</td>
+        <td id="8" onclick="treasure(8)";>?</td>
+      </tr>
+    </table>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer>
+      <p>Created by David, Vivean, and Diem</p>
+      <a href="#Top">Return to Top</a>
+      <a href="https://goldprice.org/" target="_blank">Find out the price of gold!</a>
+    </footer>
+  </div>
+  <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>

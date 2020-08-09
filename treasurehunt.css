@@ -1,0 +1,19 @@
+*{
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+
+body{
+  background-image: url(https://images.unsplash.com/photo-1564845654222-d437f029c5c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* #wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
